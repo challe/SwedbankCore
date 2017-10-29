@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/SwedbankCore/v15
+/Example/bin/Debug/netcoreapp2.0
+/Example/obj
+/SwedbankCore/bin/Debug/netcoreapp2.0
+/SwedbankCore/obj
