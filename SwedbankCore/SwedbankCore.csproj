@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Flurl" Version="2.5.0" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.4-alpha1-170218" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
     <PackageReference Include="RestSharp" Version="106.0.0-alpha0284" />
   </ItemGroup>
