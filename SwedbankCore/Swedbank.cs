@@ -107,5 +107,12 @@ namespace SwedbankCore
 
             return await _requester.GetAsync<JsonSchemas.PortfolioHoldings>("portfolio/holdings");
         }
+
+        public async Task<JsonSchemas.PortfolioHolding> GetPortfolioHoldingAsync(string fundId)
+        {
+            VerifyProfileIsSet();
+
+            return await _requester.GetAsync<JsonSchemas.PortfolioHolding>("portfolio/holdings/" + fundId);
+        }
     }
 }
